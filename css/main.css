@@ -56,6 +56,7 @@ body {
   margin-top: 3em;
   padding: 1em;
   width: 70%;
+  color: hsl(257, 40%, 49%);
   border-radius: 25px;
   border: none;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.507);
@@ -92,64 +93,54 @@ body {
   .wrapper {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1800px;
   }
   .header {
-    margin: 1em 1.5em;
+    margin: 3em 4em;
   }
   .header .logo img {
-    width: 150px;
+    width: 300px;
   }
   .content-box {
-    display: flex;
-    flex-direction: column;
-    margin: 3em 1.5em;
+    flex-direction: row;
+    margin: 3em 1em 0;
   }
   .content-box .content-img {
+    width: 55%;
     display: flex;
   }
   .content-box .content-img img {
     width: 100%;
   }
   .content-box .content-text {
-    text-align: center;
-    color: white;
-    margin-top: 4em;
+    padding: 0 4em;
+    text-align: left;
+    width: 45%;
   }
   .content-box .content-text .content-title {
-    font-size: 1.7rem;
+    font-size: 3.5rem;
   }
   .content-box .content-text .content-desc {
-    margin-top: 1.5em;
-    font-size: 1.13rem;
-    font-weight: lighter;
-    line-height: 24px;
+    font-size: 1.5rem;
+    line-height: 40px;
   }
   .content-box .content-text .register-btn {
-    margin-top: 3em;
-    padding: 1em;
-    width: 70%;
-    border-radius: 25px;
-    border: none;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.507);
+    width: 40%;
+    font-size: 1.1rem;
+    transition: background-color 0.4s, color 0.4s;
+  }
+  .content-box .content-text .register-btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
   }
   .social-box {
-    display: flex;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2em;
+    justify-content: flex-end;
   }
   .social-box .circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
-    margin-right: 0.5em;
-    border-radius: 50%;
-    color: white;
+    transition: color 0.4s, border-color 0.4s;
+  }
+  .social-box .circle:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
   }
 }/*# sourceMappingURL=main.css.map */
