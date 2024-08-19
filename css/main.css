@@ -9,4 +9,147 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-image: url(../images/bg-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.header {
+  margin: 1em 1.5em;
+}
+.header .logo img {
+  width: 150px;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  margin: 3em 1.5em;
+}
+.content-box .content-img {
+  display: flex;
+}
+.content-box .content-img img {
+  width: 100%;
+}
+.content-box .content-text {
+  text-align: center;
+  color: white;
+  margin-top: 4em;
+}
+.content-box .content-text .content-title {
+  font-size: 1.7rem;
+}
+.content-box .content-text .content-desc {
+  margin-top: 1.5em;
+  font-size: 1.13rem;
+  font-weight: lighter;
+  line-height: 24px;
+}
+.content-box .content-text .register-btn {
+  margin-top: 3em;
+  padding: 1em;
+  width: 70%;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.social-box {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.social-box .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .header {
+    margin: 1em 1.5em;
+  }
+  .header .logo img {
+    width: 150px;
+  }
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 1.5em;
+  }
+  .content-box .content-img {
+    display: flex;
+  }
+  .content-box .content-img img {
+    width: 100%;
+  }
+  .content-box .content-text {
+    text-align: center;
+    color: white;
+    margin-top: 4em;
+  }
+  .content-box .content-text .content-title {
+    font-size: 1.7rem;
+  }
+  .content-box .content-text .content-desc {
+    margin-top: 1.5em;
+    font-size: 1.13rem;
+    font-weight: lighter;
+    line-height: 24px;
+  }
+  .content-box .content-text .register-btn {
+    margin-top: 3em;
+    padding: 1em;
+    width: 70%;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.507);
+  }
+  .social-box {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  .social-box .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    margin-right: 0.5em;
+    border-radius: 50%;
+    color: white;
+  }
 }/*# sourceMappingURL=main.css.map */
